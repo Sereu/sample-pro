@@ -26,6 +26,11 @@ public class UserServiceTest {
 		assertThat(userService, notNullValue());
 	}
 	
+	@Test
+	public void testDetailUser() {
+		
+	}
+	
 	@Test(expected=SimpleBoardException.class)
 	public void testDuplicationUserAdd() {
 		User user = new User();
